@@ -25,11 +25,11 @@ const projects = [
   {
     name: 'Color Palettes for Gro Intelligence Data Viz',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Applying cartographic best practices, color math, and branding to make custom color functions.',
     stack: ['chroma.js', 'Observable', 'ColorBrewer'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-    imageSrc: '/assets/images/hydroscope.png', 
+    imageSrc: '/assets/images/colors.png', 
     imageAlt: 'Alt Text',
     routeName: 'CaseStudy1'
   },
@@ -37,11 +37,11 @@ const projects = [
   {
     name: 'Visualizing the Sperm Bank Gene Pool',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      `If we need to buy sperm, what's the gene pool like?`,
     stack: ['D3.js', 'Observable', 'Webscraping'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-    imageSrc: '/assets/images/hydroscope.png', 
+    imageSrc: '/assets/images/gene-pool.png', 
     imageAlt: 'Alt Text',
     routeName: 'CaseStudy2'
   },
@@ -52,7 +52,7 @@ const projects = [
     stack: ['D3.js', 'Scrollama', 'USGS Water Data'],
     sourceCode: 'https://github.com/ellenbechtel/ellenbechtel.github.io/tree/master/projects/astrology-of-hydrology',
     livePreview: 'https://ellenbechtel.github.io/projects/astrology-of-hydrology/',
-    imageSrc: '/assets/images/hydroscope.png', 
+    imageSrc: '/assets/images/flow.png', 
     imageAlt: 'Alt Text', 
     routeName: 'CaseStudy3'
   },
@@ -86,6 +86,17 @@ const resumeItems = [
     imageAlt: 'Alt Text'
   },
   {
+    name:'Editor',
+    company: 'Nightingale Magazine',
+    description:
+      `Editor on the staff of the Data Visualization Society's biannual magazine.`,
+    stack: ['Editing', 'Writing', 'Project Management'],
+    sourceCode: 'https://github.com/ellenbechtel/ellenbechtel.github.io/tree/master/projects/astrology-of-hydrology',
+    livePreview: 'https://ellenbechtel.github.io/projects/astrology-of-hydrology/',
+    // imageSrc: require(), 
+    imageAlt: 'Alt Text'
+  },
+  {
     name:'Masters in Information Design',
     company: 'Northeastern University',
     description:
@@ -96,6 +107,7 @@ const resumeItems = [
     // imageSrc: require(), 
     imageAlt: 'Alt Text'
   },
+  
  
 ]
 
