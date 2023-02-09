@@ -1,11 +1,11 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import CodeIcon from '@material-ui/icons/Code'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import LaunchIcon from '@material-ui/icons/Launch'
+
 // eslint-disable-next-line import/no-extraneous-dependencies
 import Tooltip from '@mui/material/Tooltip';
 import { about } from '../../portfolio'
-import pdf from '../../assets/EMB-Resume.pdf'
+
 
 
 import './About.css'
@@ -24,19 +24,6 @@ const About = () => {
       {role && <h2 className='about__role'>I&apos;m a {role}.</h2>}
       <p className='about__desc'>{description && description}</p>
 
-      <div className='about__contact center'>
-      <Tooltip title="Open in a new tab" placement="top">
-        {resume && (
-          <a href={pdf} rel="noreferrer" target="_blank">
-            <span type='button' className='btn btn--outline'>
-              open resume
-              <LaunchIcon id="launch-btn" fontSize="small" />
-            </span>
-
-          </a>
-        )}
-        </Tooltip>
-      </div>
       <div className='about__contact center'>
         {social && (
           <>

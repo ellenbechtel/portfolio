@@ -28,10 +28,7 @@
   margin: 0.5em;
 }
 
-#launch-btn {
-margin-left: 10px;
-}
-.about .btn--outline {
+.btn--outline {
   text-align: center;
   vertical-align: middle;
   display: inline-flex;
