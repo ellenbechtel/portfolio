@@ -30,7 +30,8 @@ const projects = [
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
     imageSrc: '', 
-    imageAlt: 'Alt Text'
+    imageAlt: 'Alt Text',
+    routeName: 'CaseStudy1'
   },
   
   {
@@ -41,7 +42,8 @@ const projects = [
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
     imageSrc: '', 
-    imageAlt: 'Alt Text'
+    imageAlt: 'Alt Text',
+    routeName: 'CaseStudy2'
   },
   {
     name: 'Astrology of Hydrology',
@@ -51,7 +53,8 @@ const projects = [
     sourceCode: 'https://github.com/ellenbechtel/ellenbechtel.github.io/tree/master/projects/astrology-of-hydrology',
     livePreview: 'https://ellenbechtel.github.io/projects/astrology-of-hydrology/',
     // imageSrc: require(), 
-    imageAlt: 'Alt Text'
+    imageAlt: 'Alt Text', 
+    routeName: 'CaseStudy3'
   },
 ]
 

@@ -1,4 +1,6 @@
 import uniqid from 'uniqid'
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { Link } from "react-router-dom";
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
 
@@ -24,37 +26,41 @@ const ProjectContainer = ({ project }) => (
 
     {/* <img src={project.imageSrc} alt={project.imageAlt} width="100%" height="auto" /> */}
 
-    {project.sourceCode && ( // change to a link to direct to the page
-          <a href={project.sourceCode} rel="noreferrer" target="_blank">
-            <span type='button' className='btn btn--outline'>
-              Read Case Study   
-            </span>
-            
-          </a>
-        )}
+    {project.routeName && ( // change to a link to direct to the page
+      <Link to={project.routeName}>
+        <a href={project.sourceCode} rel="noreferrer" target="_blank">
+          <span type='button' className='btn btn--outline'>
+            Read Case Study
+          </span>
+
+        </a>
+      </Link>
+    )}
+
+
 
     <div className='btn-group'>
-    {project.sourceCode && (
-      <a
-        href={project.sourceCode}
-        aria-label='source code'
-        className='link link--icon'
-      >
-        <GitHubIcon />
-      </a>
-    )}
+      {project.sourceCode && (
+        <a
+          href={project.sourceCode}
+          aria-label='source code'
+          className='link link--icon'
+        >
+          <GitHubIcon />
+        </a>
+      )}
 
-    {project.livePreview && (
-      <a
-        href={project.livePreview}
-        aria-label='live preview'
-        className='link link--icon'
-      >
-        <LaunchIcon />
-      </a>
-    )}
+      {project.livePreview && (
+        <a
+          href={project.livePreview}
+          aria-label='live preview'
+          className='link link--icon'
+        >
+          <LaunchIcon />
+        </a>
+      )}
     </div>
-    
+
   </div>
 )
 
