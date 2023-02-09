@@ -29,7 +29,7 @@ const projects = [
     stack: ['chroma.js', 'Observable', 'ColorBrewer'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-    imageSrc: '', 
+    imageSrc: '/assets/images/hydroscope.png', 
     imageAlt: 'Alt Text',
     routeName: 'CaseStudy1'
   },
@@ -41,7 +41,7 @@ const projects = [
     stack: ['D3.js', 'Observable', 'Webscraping'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-    imageSrc: '', 
+    imageSrc: '/assets/images/hydroscope.png', 
     imageAlt: 'Alt Text',
     routeName: 'CaseStudy2'
   },
@@ -52,7 +52,7 @@ const projects = [
     stack: ['D3.js', 'Scrollama', 'USGS Water Data'],
     sourceCode: 'https://github.com/ellenbechtel/ellenbechtel.github.io/tree/master/projects/astrology-of-hydrology',
     livePreview: 'https://ellenbechtel.github.io/projects/astrology-of-hydrology/',
-    // imageSrc: require(), 
+    imageSrc: '/assets/images/hydroscope.png', 
     imageAlt: 'Alt Text', 
     routeName: 'CaseStudy3'
   },
@@ -104,7 +104,8 @@ const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
   'D3.js',
-  'Mapbox GL JS', 
+  'Mapbox GL JS',
+  'Observable', 
   'Greensock',
   'JavaScript',
   'TypeScript',

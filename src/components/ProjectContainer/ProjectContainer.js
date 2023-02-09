@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
 
-
-
 import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
@@ -24,7 +22,7 @@ const ProjectContainer = ({ project }) => (
       </ul>
     )}
 
-    {/* <img src={project.imageSrc} alt={project.imageAlt} width="100%" height="auto" /> */}
+    <img src={process.env.PUBLIC_URL + project.imageSrc} alt={project.imageAlt} width="100%" height="auto" />
 
     {project.routeName && ( // change to a link to direct to the page
       <Link to={project.routeName}>
