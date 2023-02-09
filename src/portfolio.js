@@ -65,6 +65,7 @@ const resumeItems = [
   {
     name: 'Data Visualization Specialist',
     company: 'Gro Intelligence',
+    url: "https://gro-intelligence.com/",
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['Data Viz', 'Geospatial', 'UX/UI', 'Product Design'],
@@ -78,6 +79,7 @@ const resumeItems = [
     name: 'Data Visualization Designer',
     company:
       'United States Geological Survey',
+      url: "https://labs.waterdata.usgs.gov/visualizations/vizlab-home/index.html#/",
       description: "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
     stack: ['Data Viz', 'Geospatial', 'Scientific Illustration'],
     sourceCode: 'https://github.com',
@@ -88,6 +90,7 @@ const resumeItems = [
   {
     name:'Editor',
     company: 'Nightingale Magazine',
+    url: "https://nightingaledvs.com/",
     description:
       `Editor on the staff of the Data Visualization Society's biannual magazine.`,
     stack: ['Editing', 'Writing', 'Project Management'],
@@ -99,6 +102,7 @@ const resumeItems = [
   {
     name:'Masters in Information Design',
     company: 'Northeastern University',
+    url: "https://camd.northeastern.edu/program/information-design-and-data-visualization-mfa/",
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['Information Design', 'Creative Technology'],
