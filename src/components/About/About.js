@@ -1,4 +1,5 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
+import CodeIcon from '@material-ui/icons/Code'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio'
 import './About.css'
@@ -10,11 +11,11 @@ const About = () => {
     <div className='about center'>
       {name && (
         <h1>
-          Hi, I am <span className='about__name'>{name}.</span>
+          Hi, I&apos;m <span className='about__name'>{name}.</span>
         </h1>
       )}
 
-      {role && <h2 className='about__role'>A {role}.</h2>}
+      {role && <h2 className='about__role'>I&apos;m a {role}.</h2>}
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>
@@ -28,6 +29,15 @@ const About = () => {
 
         {social && (
           <>
+          {social.observable && (
+              <a
+                href={social.observable}
+                aria-label='github'
+                className='link link--icon'
+              >
+                <CodeIcon />
+              </a>
+            )}
             {social.github && (
               <a
                 href={social.github}

@@ -1,19 +1,21 @@
+
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://ellenbechtel.github.io',
+  title: 'EB',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Ellen Bechtel',
+  role: 'Data Visualization Specialist',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    `I'm a data visualization specialist - which means that I interface fluently with Product, Data, and Design workflows. I'm here to find all the creative ways that we can match your users needs with the data that's most relevant. Currently at Gro Intelligence doing data visualization.`,
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/ellen-bechtel-b6095043/',
+    github: 'https://github.com/ellenbechtel',
+    observable: "https://observablehq.com/@ellenbechtel?tab=profile"
   },
 }
 
@@ -21,51 +23,101 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Color Palettes for Gro Intelligence Data Viz',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['chroma.js', 'Observable', 'ColorBrewer'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    imageSrc: '', 
+    imageAlt: 'Alt Text'
+  },
+  
+  {
+    name: 'Visualizing the Sperm Bank Gene Pool',
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['D3.js', 'Observable', 'Webscraping'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+    imageSrc: '', 
+    imageAlt: 'Alt Text'
   },
   {
-    name: 'Project 2',
+    name: 'Astrology of Hydrology',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'What rivers were up to when and where you were born.',
+    stack: ['D3.js', 'Scrollama', 'USGS Water Data'],
+    sourceCode: 'https://github.com/ellenbechtel/ellenbechtel.github.io/tree/master/projects/astrology-of-hydrology',
+    livePreview: 'https://ellenbechtel.github.io/projects/astrology-of-hydrology/',
+    // imageSrc: require(), 
+    imageAlt: 'Alt Text'
   },
 ]
+
+
+const resumeItems = [
+  // items can be added an removed
+  // if there are no items, Resume section won't show up
+  {
+    name: 'Data Visualization Specialist',
+    company: 'Gro Intelligence',
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['Data Viz', 'Geospatial', 'UX/UI', 'Product Design'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+    imageSrc: '', 
+    imageAlt: 'Alt Text'
+  },
+  
+  {
+    name: 'Data Visualization Specialist',
+    company:
+      'United States Geological Survey',
+      description: "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
+    stack: ['Data Viz', 'Geospatial', 'Scientific Illustration'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+    imageSrc: '', 
+    imageAlt: 'Alt Text'
+  },
+  {
+    name:'Masters in Information Design',
+    company: 'Northeastern University',
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['Information Design', 'Creative Technology'],
+    sourceCode: 'https://github.com/ellenbechtel/ellenbechtel.github.io/tree/master/projects/astrology-of-hydrology',
+    livePreview: 'https://ellenbechtel.github.io/projects/astrology-of-hydrology/',
+    // imageSrc: require(), 
+    imageAlt: 'Alt Text'
+  },
+ 
+]
+
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
+  'D3.js',
+  'Mapbox GL JS', 
+  'Greensock',
   'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
-  'SASS',
+  'UX Design',
+  'UI Design',
+  'Product Design',
+  'Prototyping',
   'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Technical Writing', 
+  'Editing'
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'ellen.bechtel@gmail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, resumeItems, skills, contact }
