@@ -10,7 +10,7 @@ const about = {
   name: 'Ellen Bechtel',
   role: 'Data Visualization Specialist',
   description:
-    `I'm a data visualization specialist - which means that I interface fluently with Product, Data, and Design workflows. I'm here to find all the creative ways that we can match your users needs with the data that's most relevant. Currently at Gro Intelligence doing data visualization.`,
+    `I'm a data visualization specialist - which means that I interface fluently with Product, Data, and Design workflows to bring data to life. I'm here to find all the creative ways that we can match your users needs with the data that's most relevant. Currently at Gro Intelligence doing data visualization.`,
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/ellen-bechtel-b6095043/',
