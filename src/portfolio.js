@@ -72,7 +72,7 @@ const resumeItems = [
   },
   
   {
-    name: 'Data Visualization Specialist',
+    name: 'Data Visualization Designer',
     company:
       'United States Geological Survey',
       description: "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",

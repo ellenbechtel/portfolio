@@ -31,3 +31,20 @@
 .project .link--icon {
   margin-left: 0.5em;
 }
+
+.about .btn--outline {
+  margin: 1em;
+  padding: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-flex;
+  justify-content: center; /* center the content horizontally */
+  align-items: center; /* center the content vertically */
+}
+
+.btn-group {
+  margin-top: 1.4em;
+  display: flex;
+  justify-content: center; /* center the content horizontally */
+  align-items: center; /* center the content vertically */
+}

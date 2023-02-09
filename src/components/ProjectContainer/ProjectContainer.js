@@ -24,6 +24,16 @@ const ProjectContainer = ({ project }) => (
 
     {/* <img src={project.imageSrc} alt={project.imageAlt} width="100%" height="auto" /> */}
 
+    {project.sourceCode && ( // change to a link to direct to the page
+          <a href={project.sourceCode} rel="noreferrer" target="_blank">
+            <span type='button' className='btn btn--outline'>
+              Read Case Study   
+            </span>
+            
+          </a>
+        )}
+
+    <div className='btn-group'>
     {project.sourceCode && (
       <a
         href={project.sourceCode}
@@ -43,6 +53,8 @@ const ProjectContainer = ({ project }) => (
         <LaunchIcon />
       </a>
     )}
+    </div>
+    
   </div>
 )
 

@@ -22,6 +22,7 @@ const About = () => {
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>
+      
         {resume && (
           <a href={pdf} rel="noreferrer" target="_blank">
             <span type='button' className='btn btn--outline'>
