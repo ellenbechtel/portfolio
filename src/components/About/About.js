@@ -2,8 +2,11 @@ import GitHubIcon from '@material-ui/icons/GitHub'
 import CodeIcon from '@material-ui/icons/Code'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import LaunchIcon from '@material-ui/icons/Launch'
+// eslint-disable-next-line import/no-extraneous-dependencies
+import Tooltip from '@mui/material/Tooltip';
 import { about } from '../../portfolio'
 import pdf from '../../assets/EMB-Resume.pdf'
+
 
 import './About.css'
 
@@ -22,20 +25,23 @@ const About = () => {
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>
-      
+      <Tooltip title="Open in a new tab" placement="top">
         {resume && (
           <a href={pdf} rel="noreferrer" target="_blank">
             <span type='button' className='btn btn--outline'>
-              open resume   
+              open resume
               <LaunchIcon id="launch-btn" fontSize="small" />
             </span>
-            
+
           </a>
         )}
-
+        </Tooltip>
+      </div>
+      <div className='about__contact center'>
         {social && (
           <>
-          {social.observable && (
+          <Tooltip title="Observable" placement="top">
+            {social.observable && (
               <a
                 href={social.observable}
                 aria-label='github'
@@ -44,16 +50,21 @@ const About = () => {
                 <CodeIcon />
               </a>
             )}
-            {social.github && (
-              <a
-                href={social.github}
-                aria-label='github'
-                className='link link--icon'
-              >
-                <GitHubIcon />
-              </a>
-            )}
+</Tooltip>
 
+            <Tooltip title="Github" placement="top">
+              {social.github && (
+                <a
+                  href={social.github}
+                  aria-label='github'
+                  className='link link--icon'
+                >
+                  <GitHubIcon />
+                </a>
+              )}
+            </Tooltip>
+
+            <Tooltip title="LinkedIn" placement="top">
             {social.linkedin && (
               <a
                 href={social.linkedin}
@@ -63,6 +74,7 @@ const About = () => {
                 <LinkedInIcon />
               </a>
             )}
+            </Tooltip>
           </>
         )}
       </div>

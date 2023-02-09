@@ -1,8 +1,9 @@
 import uniqid from 'uniqid'
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { Link } from "react-router-dom";
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LaunchIcon from '@material-ui/icons/Launch'
+// import GitHubIcon from '@material-ui/icons/GitHub'
+// import LaunchIcon from '@material-ui/icons/Launch'
+
 
 import './ProjectContainer.css'
 
@@ -37,7 +38,7 @@ const ProjectContainer = ({ project }) => (
       )}
 
 
-
+{/* 
       <div className='btn-group'>
         {project.sourceCode && (
           <a
@@ -58,7 +59,7 @@ const ProjectContainer = ({ project }) => (
             <LaunchIcon />
           </a>
         )}
-      </div>
+      </div> */}
 
     </div>
   </Link>

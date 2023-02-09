@@ -9,5 +9,9 @@
 
 .skills__list-item {
   margin: 0.5em;
-  pointer: none;
+
+}
+
+.btn--plain{
+  cursor: default;
 }
