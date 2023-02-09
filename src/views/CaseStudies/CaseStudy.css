@@ -1,0 +1,47 @@
+.study {
+    flex-direction: column;
+    margin: 3em;
+  }
+  
+  .study__name {
+    color: var(--clr-primary);
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .study__role {
+    margin-top: 1.2em;
+  }
+  
+  .study__desc {
+    font-size: 1rem;
+    max-width: 600px;
+  }
+  
+  .study__desc,
+  .study__contact {
+    margin-bottom: 2.4em;
+    display: flex;
+    justify-content: center; /* center the content horizontally */
+    align-items: center; /* center the content vertically */
+  }
+  
+  .study .link--icon {
+    margin: 0.5em;
+  }
+  
+  .btn--outline {
+    text-align: center;
+    vertical-align: middle;
+    display: inline-flex;
+    justify-content: center; /* center the content horizontally */
+    align-items: center; /* center the content vertically */
+  }
+  
+  @media (max-width: 600px) {
+    .app .study {
+      align-items: flex-start;
+      margin-top: 2em;
+    }
+  }
+  

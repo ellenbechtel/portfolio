@@ -1,26 +1,23 @@
 import React from 'react'
-import uniqid from 'uniqid'
+// import uniqid from 'uniqid'
+import './CaseStudy.css'
 
 const CaseStudyTemplate = ({ project }) => (
 
 
-      <div className='casestudy'>
-        <h3>{project.name}</h3>
-  
-        <p className='project__description'>{project.description}</p>
-        {/* {project.stack && (
-          <ul className='project__stack'>
-            {project.stack.map((item) => (
-              <li key={uniqid()} className='project__stack-item'>
-                {item}
-              </li>
-            ))}
-          </ul>
-        )} */}
-  
-      </div>
+  <div className='study center'>
+    {project.name && (
+      <h1 className='study__name'>
+        {project.name}
+      </h1>
+    )}
 
-  )
-  
-  export default CaseStudyTemplate
-  
+
+    <p className='project__description'>{project.description}</p>
+
+
+  </div>
+
+)
+
+export default CaseStudyTemplate
