@@ -20,19 +20,7 @@ const ResumeContainer = ({ item }) => (
         ))}
       </ul>
     )}
-
-    {/* <img src={item.imageSrc} alt={item.imageAlt} width="100%" height="auto" /> */}
-
     
-    {item.livePreview && (
-      <a
-        href={item.livePreview}
-        aria-label='live preview'
-        className='link link--icon'
-      >
-        <LaunchIcon />
-      </a>
-    )}
   </div>
 )
 

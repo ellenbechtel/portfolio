@@ -15,13 +15,13 @@
 }
 
 .dark {
-  --clr-bg: #10231C;
-  --clr-bg-alt: #1E2623;
+  --clr-bg: #1F3D32;
+  --clr-bg-alt: #1F3D32;
   --clr-fg: #F2F2F2;
   --clr-fg-alt: #F2F2F2;
-  --clr-primary: #56BB9F;
-  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  --clr-primary: #B4E1A8;
+  --shadow: rgba(219, 219, 219, 0.16) 0px 10px 36px 0px,
+    rgba(219, 219, 219,  0.06) 0px 0px 0px 1px;
 }
 
 main {
@@ -124,7 +124,7 @@ main {
 .btn--plain {
   text-transform: initial;
   background-color: var(--clr-bg-alt);
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 1px;
   border: 0;
 }
 
