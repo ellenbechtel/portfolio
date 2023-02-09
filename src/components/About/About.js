@@ -1,7 +1,10 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import CodeIcon from '@material-ui/icons/Code'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import LaunchIcon from '@material-ui/icons/Launch'
 import { about } from '../../portfolio'
+import pdf from '../../assets/EMB-Resume.pdf'
+
 import './About.css'
 
 const About = () => {
@@ -20,10 +23,12 @@ const About = () => {
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume}>
+          <a href={pdf} rel="noreferrer" target="_blank">
             <span type='button' className='btn btn--outline'>
-              Resume
+              open resume   
+              <LaunchIcon id="launch-btn" fontSize="small" />
             </span>
+            
           </a>
         )}
 
