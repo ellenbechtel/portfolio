@@ -1,6 +1,7 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import CodeIcon from '@material-ui/icons/Code'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import TwitterIcon from '@material-ui/icons/Twitter'
 
 // eslint-disable-next-line import/no-extraneous-dependencies
 import Tooltip from '@mui/material/Tooltip';
@@ -62,6 +63,25 @@ const About = () => {
               </a>
             )}
             </Tooltip>
+            <Tooltip title="Twitter" placement="top">
+            {social.twitter && (
+              <a
+                href={social.twitter}
+                aria-label='twitter'
+                className='link link--icon'
+              >
+                <TwitterIcon />
+              </a>
+            )}
+            </Tooltip>
+
+
+
+
+
+
+
+            
           </>
         )}
       </div>

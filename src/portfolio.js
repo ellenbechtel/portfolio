@@ -15,7 +15,8 @@ const about = {
   social: {
     linkedin: 'https://www.linkedin.com/in/ellen-bechtel-b6095043/',
     github: 'https://github.com/ellenbechtel',
-    observable: "https://observablehq.com/@ellenbechtel?tab=profile"
+    observable: "https://observablehq.com/@ellenbechtel?tab=profile",
+    twitter: "https://twitter.com/ellenbechtel"
   },
 }
 
