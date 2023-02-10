@@ -136,6 +136,18 @@ const smallProjects = [
     tweet: 'https://twitter.com/USGS_KS/status/1544290605110550534?s=20&t=FFm_IjsdF2o3H-3NS2tGBw'
   },
   {
+    name: 'Shred the Gnar',
+    description:
+      'A trail map of mountain biking routes in the Middlesex Fells',
+    stack: ['Mapbox', "Illustrator"],
+    role: "Developer",
+    livePreview: '',
+    imageSrc: '/assets/images/fells.png', 
+    imageAlt: 'A trail map of mountain biking routes in the Middlesex Fells',
+    tooltip: "No preview, sorry",
+    tweet: ''
+  },
+  {
     name: 'Visual Abstract: Lake Modeling',
     description:
       `Designed and illustrated a visual abstract for the paper 'Daily surface temperatures for 185,549 lakes in the conterminous United States estimated using deep learning (1980–2020)' in ASLO.`,
@@ -183,6 +195,7 @@ const smallProjects = [
     tooltip: "See on Twitter",
     tweet: 'https://twitter.com/USGS_DataSci/status/1378070227670327296?s=20&t=nk-cu7WtrvZ7FJ1SolHw4w'
   },
+  
 ]
 
 
