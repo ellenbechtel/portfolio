@@ -24,12 +24,12 @@ const ProjectContainer = ({ project }) => (
 
       {project.routeName && ( // change to a link to direct to the page
   
-          <a href={`${process.env.PUBLIC_URL}/CaseStudy1`} rel="noreferrer" target="_blank">
+          // <a href={`${process.env.PUBLIC_URL}/`}>
             <span type='button' className='btn btn--outline'>
-              Read Case Study
+              Case study writeup is in progress
             </span>
 
-          </a>
+          // </a>
       
       )}
 

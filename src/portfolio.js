@@ -23,11 +23,11 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Color Palettes for Gro Intelligence Data Viz',
+    name: 'Color Tools for Branded Data Viz at Gro',
     description:
-      'Applying cartographic best practices, color math, and branding to make custom color functions.',
-    stack: ['chroma.js', 'Observable', 'ColorBrewer'],
-    role: "Product Designer and Developer",
+      'Applying cartographic best practices, color math, and branding to make a suite of color tools for analysts and developers.',
+    stack: [ 'Observable', 'chroma.js', 'ColorBrewer'],
+    role: "Developer and Product Designer",
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
     imageSrc: '/assets/images/colors.png', 
@@ -85,7 +85,7 @@ const smallProjects = [
     livePreview: 'https://community.gro-intelligence.com/global-fertilizer-impact-monitor/?country=World',
     imageSrc: '/assets/images/foodsecuritytracker.png', 
     imageAlt: 'Choropleth map showing stocks-to-use ratio for African countries',
-    tooltip: "See Live",
+    tooltip: "See on Gro-Intelligence.com",
     tweet: 'https://twitter.com/GroIntel/status/1527359685279502337?s=20&t=zSwY7AHp_nUGrMWfyzYvSw'
   },
   {
@@ -101,6 +101,30 @@ const smallProjects = [
     tweet: 'https://twitter.com/USGS_DataSci/status/1422627369420996608?s=20&t=ejjZ4VzR5m8xSQ6C8l6vHQ'
   },
   {
+    name: 'Water Science and Management in the Delaware River Bsin',
+    description:
+      'Wrote, Designed and Developed the visual story for the USGS.',
+    stack: ['D3.js', 'Vue', "Illustrator"],
+    role: "Developer",
+    livePreview: 'https://labs.waterdata.usgs.gov/visualizations/delaware-basin-story/index.html',
+    imageSrc: '/assets/images/drb.png', 
+    imageAlt: 'Illustration showing the Delaware River Basin.',
+    tooltip: "See on USGS.gov",
+    tweet: 'https://twitter.com/USGS_Water/status/1336009249508515842?s=20&t=JTGbTWWiRdADa9kR3IKwCQ'
+  },
+  {
+    name: 'How We Monitor Stream Temperature in the Delaware River Basins',
+    description:
+      'Illustrated and developed visualizations for this visual story for the USGS.',
+    stack: ['D3.js', 'Vue', "Illustrator"],
+    role: "Designer",
+    livePreview: 'https://labs.waterdata.usgs.gov/visualizations/temperature-prediction/index.html#/monitoring',
+    imageSrc: '/assets/images/tempprediction.png', 
+    imageAlt: 'Illustration showing temperature measurements over the course of a year in the Delaware River Basin.',
+    tooltip: "See on USGS.gov",
+    tweet: 'https://twitter.com/USGS_DataSci/status/1409527230867415045?s=20&t=FjNl-SgLAqHKUwiyhfEx1A'
+  },
+  {
     name: 'Fertilizer Impact Monitor',
     description:
       'Developed the code for the maps across the site, in partnership with the Gates Foundation.',
@@ -109,7 +133,7 @@ const smallProjects = [
     livePreview: 'https://community.gro-intelligence.com/food-security-tracker-africa',
     imageSrc: '/assets/images/fertilizer-monitor.png', 
     imageAlt: 'Choropleth map showing stocks-to-use ratio for African countries',
-    tooltip: "See on Live",
+    tooltip: "See on Gro-Intelligence.com",
     tweet: 'https://twitter.com/GroIntel/status/1565771979310915587?s=20&t=kDC69XL-UGS5fRO8_J5M6Q'
   },
   {
@@ -133,6 +157,7 @@ const smallProjects = [
     livePreview: 'https://labs.waterdata.usgs.gov/visualizations/gages-through-the-ages/index.html#/',
     imageSrc: '/assets/images/gages.jpeg', 
     imageAlt: 'Map of streamgages across the US',
+    tooltip: "See on USGS.gov",
     tweet: 'https://twitter.com/USGS_KS/status/1544290605110550534?s=20&t=FFm_IjsdF2o3H-3NS2tGBw'
   },
   {
@@ -141,7 +166,7 @@ const smallProjects = [
       'A trail map of mountain biking routes in the Middlesex Fells',
     stack: ['Mapbox', "Illustrator"],
     role: "Developer",
-    livePreview: '',
+    livePreview: '/',
     imageSrc: '/assets/images/fells.png', 
     imageAlt: 'A trail map of mountain biking routes in the Middlesex Fells',
     tooltip: "No preview, sorry",
@@ -207,11 +232,8 @@ const resumeItems = [
     company: 'Gro Intelligence',
     url: "https://gro-intelligence.com/",
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Working to make climate, agriculture, and economics data accessible and understandable to a wide audience through data visualization and design.',
     stack: ['Data Viz', 'Geospatial', 'UX/UI', 'Product Design'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    imageSrc: '', 
     imageAlt: 'Alt Text'
   },
   
@@ -220,23 +242,8 @@ const resumeItems = [
     company:
       'United States Geological Survey',
       url: "https://labs.waterdata.usgs.gov/visualizations/vizlab-home/index.html#/",
-      description: "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
+      description: "Designed and developed visual stories for the USGS Water Division.",
     stack: ['Data Viz', 'Geospatial', 'Scientific Illustration'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    imageSrc: '', 
-    imageAlt: 'Alt Text'
-  },
-  {
-    name:'Editor',
-    company: 'Nightingale Magazine',
-    url: "https://nightingaledvs.com/",
-    description:
-      `Editor on the staff of the Data Visualization Society's biannual magazine.`,
-    stack: ['Editing', 'Writing', 'Project Management'],
-    sourceCode: 'https://github.com/ellenbechtel/ellenbechtel.github.io/tree/master/projects/astrology-of-hydrology',
-    livePreview: 'https://ellenbechtel.github.io/projects/astrology-of-hydrology/',
-    // imageSrc: require(), 
     imageAlt: 'Alt Text'
   },
   {
@@ -244,13 +251,20 @@ const resumeItems = [
     company: 'Northeastern University',
     url: "https://camd.northeastern.edu/program/information-design-and-data-visualization-mfa/",
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Completed a Masters of Science in Information Design with a focus on development on D3.js and geospatial analysis',
     stack: ['Information Design', 'Creative Technology'],
-    sourceCode: 'https://github.com/ellenbechtel/ellenbechtel.github.io/tree/master/projects/astrology-of-hydrology',
-    livePreview: 'https://ellenbechtel.github.io/projects/astrology-of-hydrology/',
-    // imageSrc: require(), 
     imageAlt: 'Alt Text'
   },
+  {
+    name:'Editor',
+    company: 'Nightingale Magazine',
+    url: "https://nightingaledvs.com/",
+    description:
+      `Volunteer editor for the Data Visualization Society's magazine.`,
+    stack: ['Editing', 'Writing', 'Project Management'],
+    imageAlt: 'Alt Text'
+  },
+ 
   
  
 ]
