@@ -1,11 +1,11 @@
 import uniqid from 'uniqid'
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
 
-  <Link to={project.routeName}>
+  <a href={project.routeName}>
     <div className='project'>
       <h3>{project.name}</h3>
 
@@ -34,7 +34,7 @@ const ProjectContainer = ({ project }) => (
       )}
 
     </div>
-  </Link>
+  </a>
 )
 
 export default ProjectContainer

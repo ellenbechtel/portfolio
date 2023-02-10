@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { Route, Routes } from 'react-router-dom'
+// import { Route, Routes } from 'react-router-dom'
 import { useContext } from 'react'
 import { ThemeContext } from './contexts/theme'
 
@@ -20,13 +20,13 @@ const App = () => {
     <div id='top' className={`${themeName} app`}>
       <Header />
 
-      <Routes>
+      {/* <Routes>
         <Route path="" element={ <Home /> } />
         {/* <Route path="casestudy1" element={ <CaseStudy1/> } />
         <Route path="casestudy2" element={ <CaseStudy2/> } />
-        <Route path="casestudy3" element={ <CaseStudy3/> } /> */}
-      </Routes>
-      
+        <Route path="casestudy3" element={ <CaseStudy3/> } /> 
+      </Routes> */}
+      <Home />
 
       <ScrollToTop />
       <Footer />

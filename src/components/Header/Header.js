@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { header } from '../../portfolio'
 import Navbar from '../Navbar/Navbar'
 import './Header.css'
@@ -11,17 +11,16 @@ const Header = () => {
     <header className='header center'>
       <h3>
         {homepage ? (
-          <Link to="/">
+      
             <a href={homepage} className='link'>
               {title}
             </a>
 
-          </Link>
 
         ) : (
-          <Link to="/">
+         
             {title}
-          </Link>
+    
 
         )}
       </h3>
