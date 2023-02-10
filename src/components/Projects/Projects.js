@@ -1,5 +1,5 @@
 import uniqid from 'uniqid'
-import { projects, smallProjects, resumeItems } from '../../portfolio'
+import { projects, smallProjects } from '../../portfolio'
 import ProjectContainer from '../ProjectContainer/ProjectContainer'
 import ProjectContainerSmall from '../ProjectContainer/ProjectContainerSmall'
 import './Projects.css'

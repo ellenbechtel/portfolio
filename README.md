@@ -8,15 +8,21 @@ Ellen's Portfolio Website for data visualization
 
 ```shell
 git clone https://github.com/ellenbechtel/portfolio
-cd cleanfolio
+cd portfolio
 ```
 
 If you use [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm) (optional) -
 
-```shell
-nvm install
-nvm use
+to install nvm
 ```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+```
+
+```shell
+nvm install 12
+nvm use 12
+```
+
 
 Or -
 
