@@ -13,7 +13,12 @@ const CaseStudyTemplate = ({ project }) => (
     )}
 
 
-    <p className='project__description'>{project.description}</p>
+{project.role && <h2 className='study__role'>I was the <span className="highlight">{project.role}</span>.</h2>}
+    {project.description && (
+      <p className='study__desc'>{project.description}</p>
+    )}
+
+<p>Content is in development. </p>
 
 
   </div>

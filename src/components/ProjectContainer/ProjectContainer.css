@@ -4,6 +4,7 @@
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  border-radius: 4px;
 }
 
 .project:hover {
@@ -45,4 +46,11 @@
   display: flex;
   justify-content: center; /* center the content horizontally */
   align-items: center; /* center the content vertically */
+}
+
+.project__image {
+  width: 100%;
+  height: auto;
+  box-shadow: var(--shadow);
+  border-radius: 4px;
 }

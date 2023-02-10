@@ -27,6 +27,7 @@ const projects = [
     description:
       'Applying cartographic best practices, color math, and branding to make custom color functions.',
     stack: ['chroma.js', 'Observable', 'ColorBrewer'],
+    role: "Product Designer and Developer",
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
     imageSrc: '/assets/images/colors.png', 
@@ -39,6 +40,7 @@ const projects = [
     description:
       `If we need to buy sperm, what's the gene pool like?`,
     stack: ['D3.js', 'Observable', 'Webscraping'],
+    role: "Designer and Developer",
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
     imageSrc: '/assets/images/gene-pool.png', 
@@ -50,6 +52,7 @@ const projects = [
     description:
       'What rivers were up to when and where you were born.',
     stack: ['D3.js', 'Scrollama', 'USGS Water Data'],
+    role: "Designer and Developer",
     sourceCode: 'https://github.com/ellenbechtel/ellenbechtel.github.io/tree/master/projects/astrology-of-hydrology',
     livePreview: 'https://ellenbechtel.github.io/projects/astrology-of-hydrology/',
     imageSrc: '/assets/images/flow.png', 

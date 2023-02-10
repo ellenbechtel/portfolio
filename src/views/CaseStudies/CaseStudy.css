@@ -4,16 +4,19 @@
   }
   
   .study__name {
-    color: var(--clr-primary);
     margin: 0 auto;
     text-align: center;
   }
   
+  .highlight {
+    color: var(--clr-primary);
+  }
   .study__role {
     margin-top: 1.2em;
   }
   
   .study__desc {
+    margin-top: 1.2em;
     font-size: 1rem;
     max-width: 600px;
   }
