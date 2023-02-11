@@ -99,11 +99,11 @@ const smallProjects = [
       'Prototyped the code for a series of visualization components used to build applications at Gro.',
     stack: ['D3.js', 'Product Design', "UX/UI"],
     role: "Product Designer, Developer",
-    livePreview: '',
+    livePreview: 'https://community.gro-intelligence.com/global-fertilizer-impact-monitor/?country=World',
     imageSrc: '/assets/images/mapcomponent.png', 
-    imageAlt: 'Choropleth map showing stocks-to-use ratio for African countries',
-    tooltip: "Sorry, proprietary information",
-    tweet: 'https://twitter.com/GroIntel/status/1527359685279502337?s=20&t=zSwY7AHp_nUGrMWfyzYvSw'
+    imageAlt: 'Draft map component screenshot',
+    tooltip: "See an instance on Gro-Intelligence.com",
+    tweet: 'https://twitter.com/GroIntel/status/1565771979310915587?s=20&t=kDC69XL-UGS5fRO8_J5M6Q'
   },
   {
     name: 'How Wildfires Threaten U.S. Water Supplies',

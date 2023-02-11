@@ -24,9 +24,9 @@ const Projects = () => {
       <h2 className='section__title'>Other Projects</h2>
 
       <div className='projects__grid'>
-        {/* {smallProjects.map((project) => (
+        {smallProjects.map((project) => (
           <ProjectContainerSmall key={uniqid()} project={project} />
-        ))} */}
+        ))}
 
       </div>
     </section>
