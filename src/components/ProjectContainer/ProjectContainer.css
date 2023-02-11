@@ -54,3 +54,7 @@
   box-shadow: var(--shadow);
   border-radius: 4px;
 }
+
+.btn--disabled {
+  cursor:not-allowed;
+}

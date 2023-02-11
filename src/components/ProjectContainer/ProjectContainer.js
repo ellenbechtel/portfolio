@@ -25,7 +25,7 @@ const ProjectContainer = ({ project }) => (
       {project.routeName && ( // change to a link to direct to the page
   
           // <a href={`${process.env.PUBLIC_URL}/`}>
-            <span type='button' className='btn btn--outline'>
+            <span type='button' className='btn btn--outline btn--disabled'>
               Case study writeup is in progress
             </span>
 
