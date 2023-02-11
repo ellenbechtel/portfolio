@@ -25,18 +25,17 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Color Tools for Branded Data Viz at Gro',
+    name: 'Observable Notebooks for Gro Teams',
     description:
       'Applying cartographic best practices, color math, and branding to make a suite of color tools for analysts and developers.',
-    stack: [ 'Observable', 'chroma.js', 'ColorBrewer'],
+    stack: [ 'Observable', 'Javascript', 'Rapid Prototyping'],
     role: "Developer and Product Designer",
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
     imageSrc: '/assets/images/colors.png', 
     imageAlt: 'Alt Text',
-    longdesc: "I developed a suite of tools for analysts and designers at Gro to quickly make their data visualizations look branded, consistent, and beautiful. One tool condensed Gro's database of 10,000 metrics into its 52 unique color palettes and made it all searchable and exportable. Another tool allowed for quick customization of the brand palettes for different uses - sequential, divergent, continuous, discrete, contrast against background, etc. Along the way, I was able to create custom D3 interpolation schemes that dynamically generate from Gro Brand colors and follow best practices of perceptual uniformity and accessibility.",
+    longdesc: "I started the Observable Team at Gro and implemented the use of notebooks as part of our product workflow. Now, our teams regularly use Observable notebooks for data exploration, rapid prototyping, internal tooling, and QA-ing visualizations before release.",
     url: 'https://observablehq.com/@ellenbechtel',
     tooltip: "View in Observable",
+    caveat: "Unfortunately, these notebooks are proprietary and cannot be shared. They can be demo-ed on request, and for now you can preview other Observable notebooks of mine."
   },
   
   {
@@ -45,8 +44,6 @@ const projects = [
       `If we need to buy sperm, what's the gene pool like?`,
     stack: ['D3.js', 'Observable', 'Webscraping'],
     role: "Designer and Developer",
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
     imageSrc: '/assets/images/gene-pool.png', 
     imageAlt: 'Alt Text',
     longdesc: `Follow me on a journey of discovering the details of who exactly is in the gene pool of sperm banks. I started by making free accounts at five of the largest sperm banks in the world, then using a webscraper to gather all available information about the donors in their catalog.  Then I visualized it as a beeswarm chart faceted by what donor details were available across the banks.`,
@@ -63,7 +60,7 @@ const projects = [
     livePreview: 'https://ellenbechtel.github.io/projects/astrology-of-hydrology/',
     imageSrc: '/assets/images/flow.png', 
     imageAlt: 'Alt Text', 
-    longdesc: "A totally outrageous and totally fun twist on the USGS Water Data for the Nation API.  If the stars looked a certain way at our day of birth, so did rivers.  Here I use the location and date of your birth to calculate a streamflow diagram of what riverflow across the US looked like for a 30-day period surrounding the day you were born.",
+    longdesc: "A totally wacky twist on the USGS Water Data for the Nation API.  If the stars looked a certain way at our day of birth, so did rivers.  Here I use the location and date of your birth to calculate a streamflow diagram of what riverflow across the US looked like for a 30-day period surrounding the day you were born.",
     url: 'https://ellenbechtel.github.io/projects/astrology-of-hydrology/',
     tooltip: "View Live Site",
   },
@@ -94,6 +91,18 @@ const smallProjects = [
     imageSrc: '/assets/images/foodsecuritytracker.png', 
     imageAlt: 'Choropleth map showing stocks-to-use ratio for African countries',
     tooltip: "See on Gro-Intelligence.com",
+    tweet: 'https://twitter.com/GroIntel/status/1527359685279502337?s=20&t=zSwY7AHp_nUGrMWfyzYvSw'
+  },
+  {
+    name: 'Gro Design System Viz Library',
+    description:
+      'Prototyped the code for a series of visualization components used to build applications at Gro.',
+    stack: ['D3.js', 'Product Design', "UX/UI"],
+    role: "Product Designer, Developer",
+    livePreview: '',
+    imageSrc: '/assets/images/mapcomponent.png', 
+    imageAlt: 'Choropleth map showing stocks-to-use ratio for African countries',
+    tooltip: "Sorry, proprietary information",
     tweet: 'https://twitter.com/GroIntel/status/1527359685279502337?s=20&t=zSwY7AHp_nUGrMWfyzYvSw'
   },
   {
@@ -269,7 +278,7 @@ const resumeItems = [
     url: "https://nightingaledvs.com/",
     description:
       `Volunteer editor for the Data Visualization Society's magazine.`,
-    stack: ['Editing', 'Writing', 'Project Management'],
+    stack: ['Editing', 'Writing'],
     imageAlt: 'Alt Text'
   },
  

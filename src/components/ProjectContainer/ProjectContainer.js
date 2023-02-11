@@ -26,6 +26,9 @@ const ProjectContainer = ({ project }) => (
 
     <p className='project__longdesc'>{project.longdesc}</p>
 
+    {project.caveat && (
+        <p className='project__longdesc'><span className="highlight italic">{project.caveat}</span></p>
+    ) }
     {project.url && ( // change to a link to direct to the page
 
       <Tooltip title={project.tooltip} placement="top">
