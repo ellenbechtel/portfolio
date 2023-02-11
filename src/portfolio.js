@@ -35,7 +35,7 @@ const projects = [
     imageSrc: '/assets/images/colors.png', 
     imageAlt: 'Alt Text',
     longdesc: "I developed a suite of tools for analysts and designers at Gro to quickly make their data visualizations look branded, consistent, and beautiful. One tool condensed Gro's database of 10,000 metrics into its 52 unique color palettes and made it all searchable and exportable. Another tool allowed for quick customization of the brand palettes for different uses - sequential, divergent, continuous, discrete, contrast against background, etc. Along the way, I was able to create custom D3 interpolation schemes that dynamically generate from Gro Brand colors and follow best practices of perceptual uniformity and accessibility.",
-    url: 'https://observablehq.com/@ellenbechtel/color-tools',
+    url: 'https://observablehq.com/@ellenbechtel',
     tooltip: "View in Observable",
   },
   
