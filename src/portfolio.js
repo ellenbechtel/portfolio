@@ -32,6 +32,28 @@ const projects = [
     role: "Developer and Product Designer",
     imageSrc: '/assets/images/colors.png', 
     imageAlt: 'Alt Text',
+    images: [
+      {
+        src: "/assets/images/cru-ifa.png",
+        alt: "An Observable notebook comparing CRU and IFA fertilizer data."
+      },
+      {
+        src: "/assets/images/beeswarm.png",
+        alt: "An Observable notebook previewing a new heat stress indicator metric as a beeswarm."
+      },
+      {
+        src: "/assets/images/color-builder.png",
+        alt: "An Observable notebook for building branded Gro color palettes."
+      },
+      {
+        src: "/assets/images/ifst.png",
+        alt: "An Observable notebook previewing rainfall data in India weighted by corn production."
+      },
+      {
+        src: "/assets/images/colors.png",
+        alt: "Color swatches for branded Gro palettes for maps."
+      },
+    ], 
     longdesc: "I started the Observable Team at Gro and implemented the use of notebooks as part of our product workflow. Now, our teams regularly use Observable notebooks for data exploration, rapid prototyping, internal tooling, and QA-ing visualizations before release.",
     url: 'https://observablehq.com/@ellenbechtel',
     tooltip: "View in Observable",
@@ -44,8 +66,13 @@ const projects = [
       `If we need to buy sperm, what's the gene pool like?`,
     stack: ['D3.js', 'Observable', 'Webscraping'],
     role: "Designer and Developer",
-    imageSrc: '/assets/images/gene-pool.png', 
-    imageAlt: 'Alt Text',
+    images: [
+      {
+        src: "/assets/images/gene-pool.png",
+        alt: "A faceted beeswarm showing groupings of sperm donors by race and height."
+      },
+      
+    ],
     longdesc: `Follow me on a journey of discovering the details of who exactly is in the gene pool of sperm banks. I started by making free accounts at five of the largest sperm banks in the world, then using a webscraper to gather all available information about the donors in their catalog.  Then I visualized it as a beeswarm chart faceted by what donor details were available across the banks.`,
     url: 'https://observablehq.com/@ellenbechtel/the-sperm-bank-gene-pool',
     tooltip: "View in Observable",
@@ -58,8 +85,14 @@ const projects = [
     role: "Designer and Developer",
     sourceCode: 'https://github.com/ellenbechtel/ellenbechtel.github.io/tree/master/projects/astrology-of-hydrology',
     livePreview: 'https://ellenbechtel.github.io/projects/astrology-of-hydrology/',
-    imageSrc: '/assets/images/flow.png', 
-    imageAlt: 'Alt Text', 
+
+    images: [
+      {
+        src: "/assets/images/flow.png",
+        alt: "A streamflow diagram showing 30 days of flow measured by USGS streamgages on April 23, 1987."
+      },
+      
+    ],
     longdesc: "A totally wacky twist on the USGS Water Data for the Nation API.  If the stars looked a certain way at our day of birth, so did rivers.  Here I use the location and date of your birth to calculate a streamflow diagram of what riverflow across the US looked like for a 30-day period surrounding the day you were born.",
     url: 'https://ellenbechtel.github.io/projects/astrology-of-hydrology/',
     tooltip: "View Live Site",
