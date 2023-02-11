@@ -12,6 +12,7 @@ const about = {
   description:
     `That means I interface fluently with Product, Data, and Design workflows to bring data to life. I'm here to find all the creative ways that we can match your users needs with the data that's most relevant. Currently at Gro Intelligence doing data visualization.`,
   resume: 'https://example.com',
+
   social: {
     linkedin: 'https://www.linkedin.com/in/ellen-bechtel-b6095043/',
     github: 'https://github.com/ellenbechtel',
@@ -33,7 +34,9 @@ const projects = [
     livePreview: 'https://github.com',
     imageSrc: '/assets/images/colors.png', 
     imageAlt: 'Alt Text',
-    routeName: 'CaseStudy1'
+    longdesc: "I developed a suite of tools for analysts and designers at Gro to quickly make their data visualizations look branded, consistent, and beautiful. One tool condensed Gro's database of 10,000 metrics into its 52 unique color palettes and made it all searchable and exportable. Another tool allowed for quick customization of the brand palettes for different uses - sequential, divergent, continuous, discrete, contrast against background, etc. Along the way, I was able to create custom D3 interpolation schemes that dynamically generate from Gro Brand colors and follow best practices of perceptual uniformity and accessibility.",
+    url: 'https://observablehq.com/@ellenbechtel/color-tools',
+    tooltip: "View in Observable",
   },
   
   {
@@ -46,7 +49,9 @@ const projects = [
     livePreview: 'https://github.com',
     imageSrc: '/assets/images/gene-pool.png', 
     imageAlt: 'Alt Text',
-    routeName: 'CaseStudy2'
+    longdesc: `Follow me on a journey of discovering the details of who exactly is in the gene pool of sperm banks. I started by making free accounts at five of the largest sperm banks in the world, then using a webscraper to gather all available information about the donors in their catalog.  Then I visualized it as a beeswarm chart faceted by what donor details were available across the banks.`,
+    url: 'https://observablehq.com/@ellenbechtel/the-sperm-bank-gene-pool',
+    tooltip: "View in Observable",
   },
   {
     name: 'Astrology of Hydrology',
@@ -58,7 +63,9 @@ const projects = [
     livePreview: 'https://ellenbechtel.github.io/projects/astrology-of-hydrology/',
     imageSrc: '/assets/images/flow.png', 
     imageAlt: 'Alt Text', 
-    routeName: 'CaseStudy3'
+    longdesc: "A totally outrageous and totally fun twist on the USGS Water Data for the Nation API.  If the stars looked a certain way at our day of birth, so did rivers.  Here I use the location and date of your birth to calculate a streamflow diagram of what riverflow across the US looked like for a 30-day period surrounding the day you were born.",
+    url: 'https://ellenbechtel.github.io/projects/astrology-of-hydrology/',
+    tooltip: "View Live Site",
   },
 ]
 
