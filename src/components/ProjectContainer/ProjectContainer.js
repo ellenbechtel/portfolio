@@ -3,6 +3,9 @@ import uniqid from 'uniqid'
 import Tooltip from '@mui/material/Tooltip';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+// import Swiper from '../Swiper/Swiper'
+
+
 // eslint-disable-next-line import/no-extraneous-dependencies
 // import { Link } from "react-router-dom";
 import './ProjectContainer.css'
@@ -26,18 +29,15 @@ const ProjectContainer = ({ project }) => (
     )}
 
     {/* <img className="project__image" src={process.env.PUBLIC_URL + project.imageSrc} alt={project.imageAlt} /> */}
-
-
+    {/* <Swiper project={project.images}/> */}
+     
     <Carousel>
-  
-    
         {project.images.map((im) => (
           <div key={uniqid()}>
             <img src={process.env.PUBLIC_URL + im.src} alt={im.alt} />
             <p className="legend">{im.alt}</p>
           </div>
         ))}
-      
     </Carousel>
     <p className='project__longdesc'>{project.longdesc}</p>
 

@@ -49,10 +49,10 @@ const projects = [
         src: "/assets/images/ifst.png",
         alt: "An Observable notebook previewing rainfall data in India weighted by corn production."
       },
-      {
-        src: "/assets/images/colors.png",
-        alt: "Color swatches for branded Gro palettes for maps."
-      },
+      // {
+      //   src: "/assets/images/colors.png",
+      //   alt: "Color swatches for branded Gro palettes for maps."
+      // },
     ], 
     longdesc: "I started the Observable Team at Gro and implemented the use of notebooks as part of our product workflow. Now, our teams regularly use Observable notebooks for data exploration, rapid prototyping, internal tooling, and QA-ing visualizations before release.",
     url: 'https://observablehq.com/@ellenbechtel',
@@ -137,6 +137,19 @@ const smallProjects = [
     imageAlt: 'Draft map component screenshot',
     tooltip: "See an instance on Gro-Intelligence.com",
     tweet: 'https://twitter.com/GroIntel/status/1565771979310915587?s=20&t=kDC69XL-UGS5fRO8_J5M6Q'
+  },
+  {
+    name: 'How to Lie About War with Maps',
+    description:
+      `A lecture for Franklin & Marshall College's seminar on the Russia-Ukraine war featuring Monmonier's cartographic principes applied to conflict communications.`,
+    stack: ['Cartography', 'Map Design', 'Teaching'],
+    role: "Lecturer",
+    livePreview: 'https://docs.google.com/presentation/d/1BdE9h3WARf_2ZBAx7yJg3P8rT9xz55CEb40UT6eLvh0/edit?usp=sharing',
+    imageSrc: '/assets/images/howtolieaboutwarwithmaps.png', 
+    imageAlt: 'Mercator projection and Natural Earth II map projection overlaid on each other, showing big areas of discrepancies.',
+    tooltip: "See an instance on Gro-Intelligence.com",
+    tweet: 'https://twitter.com/GroIntel/status/1565771979310915587?s=20&t=kDC69XL-UGS5fRO8_J5M6Q',
+    youtube: "https://www.youtube.com/watch?v=I5OgEdqJBrY&ab_channel=EllenBechtel"
   },
   {
     name: 'How Wildfires Threaten U.S. Water Supplies',
